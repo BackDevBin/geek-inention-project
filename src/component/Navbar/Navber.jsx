@@ -26,7 +26,7 @@ const Navber = () => {
     return (
         <div className={`navbar ${scrolling ? 'scrolled' : ''}`}>
 
-            <div className='flex justify-between items-center px-10 py-5'>
+            <div className='flex justify-between items-center px-10 py-4'>
                 
                 <div>
                 <Link><h3 className='text-4xl semi-bold font-bold'>Geeks <span className='text-orange-500'>Invention</span></h3></Link>

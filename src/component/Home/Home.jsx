@@ -6,6 +6,8 @@ import SmartEdu from './Section/SmartEdu';
 import CheckOut from './Section/CheckOut';
 import RecentClient from './Section/RecentClient';
 import SoftwerPlatform from './Section/SoftwerPlatform';
+import DedicatedTeam from './Section/DedicatedTeam';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <CheckOut></CheckOut>
             <RecentClient></RecentClient>
             <SoftwerPlatform></SoftwerPlatform>
+            <DedicatedTeam></DedicatedTeam>
+            <Footer></Footer>
         </div>
     );
 };

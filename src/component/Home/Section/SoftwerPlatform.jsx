@@ -9,7 +9,7 @@ const SoftwerPlatform = () => {
 
             <div className='text-center pb-32'>
                 <p className='text-6xl font-semibold pb-8'>Software for modern platforms</p>
-                <p className='text-xl'>We develop applications for mobile, web, wearables, and TV.</p>
+                <p className='text-xl opacity-80'>We develop applications for mobile, web, wearables, and TV.</p>
             </div>
 
             <div className='flex justify-around'>
