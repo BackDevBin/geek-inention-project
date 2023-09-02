@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    opacity: 1; /* Initial opacity */
+    color: #fff;
+    
+  }
+  
+
+  .navbar.scrolled {
+    background-color: rgb(91 33 182);
+    opacity: 0.9; 
+  }

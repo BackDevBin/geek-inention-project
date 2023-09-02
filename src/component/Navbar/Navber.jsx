@@ -1,14 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import './navbar.css';
 
 const Navber = () => {
+
+
+    const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
     return (
-        <div>
+        <div className={`navbar ${scrolling ? 'scrolled' : ''}`}>
 
             <div className='flex justify-between items-center px-10 py-5'>
                 
                 <div>
-                <Link><h3 className='text-4xl semi-bold font-semibold'>Geeks Invention</h3></Link>
+                <Link><h3 className='text-4xl semi-bold font-bold'>Geeks <span className='text-orange-500'>Invention</span></h3></Link>
                 </div>
 
                 <div>
