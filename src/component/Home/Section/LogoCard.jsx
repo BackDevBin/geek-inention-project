@@ -1,12 +1,16 @@
 import React from 'react';
-import imbLogo from '../../../assets/logo/logo-ibm.webp';
 
-const LogoCard = () => {
+const LogoCard = ({imageUrl,title,shortDescription}) => {
+
+    const paddingStyles = {
+        padding: '90px 50px 90px 50px',
+      };
+
     return (
-        <div className='px-12 py-24 bg-slate-800 text-center'>
-            <img src={imbLogo} alt="" />
-            <p>Global Technology</p>
-            <p>From cloud computing to artificial intelligence, IBM's cutting-edge technologies and expertise have helped countless businesses stay ahead of the curve in today's digital world.</p>
+        <div style={paddingStyles} className='bg-slate-800 text-center'>
+            <img className='pb-10 inline-block ' src={imageUrl} alt="" />
+            <p className='text-2xl pb-4 font-semibold'>{title}</p>
+            <p className='text-base opacity-80'>{shortDescription}</p>
         </div>
     );
 };
