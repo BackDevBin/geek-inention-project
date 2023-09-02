@@ -5,16 +5,18 @@ import Industrial from './Section/Industrial';
 import SmartEdu from './Section/SmartEdu';
 import CheckOut from './Section/CheckOut';
 import RecentClient from './Section/RecentClient';
+import SoftwerPlatform from './Section/SoftwerPlatform';
 
 const Home = () => {
     return (
-        <div className='text-white'>
+        <div className='text-white bg-black'>
             <Navber></Navber>
             <Fintech></Fintech>
             <Industrial></Industrial>
             <SmartEdu></SmartEdu>
             <CheckOut></CheckOut>
             <RecentClient></RecentClient>
+            <SoftwerPlatform></SoftwerPlatform>
         </div>
     );
 };
