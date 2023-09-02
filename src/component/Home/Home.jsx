@@ -2,6 +2,7 @@ import React from 'react';
 import Navber from '../Navbar/Navber';
 import Fintech from './Section/Fintech';
 import Industrial from './Section/Industrial';
+import SmartEdu from './Section/SmartEdu';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navber></Navber>
             <Fintech></Fintech>
             <Industrial></Industrial>
+            <SmartEdu></SmartEdu>
         </div>
     );
 };
