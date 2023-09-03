@@ -4,7 +4,7 @@ import industrialImage from '../../../assets/images/industry-iot.webp';
 
 const Industrial = () => {
     return (
-        <div className='h-fit bg-violet-800 md:flex md:px-10 md:py-36 px-3 pt-8 pb-8'>
+        <div style={{ backgroundColor: 'rgb(1, 181, 172)',  }} className='h-fit md:flex md:px-10 md:py-36 px-3 pt-8 pb-8'>
 
             <div className='md:w-1/2'>
                 <img src={industrialImage} alt="" />
@@ -14,9 +14,9 @@ const Industrial = () => {
                 <h3 className='text-6xl font-semibold pb-3'>Industrial IoT</h3>
                 <h2 className='opacity-60 text-3xl pb-8'>Providing a better connected experience</h2>
                 <div className='grid grid-cols-2 md:flex md:gap-2 gap-1 pb-8'>
-                    <p className='text-sm px-3 py-1.5 rounded-full text-center bg-violet-700'>Connected manufacturing</p>
-                    <p className='text-sm px-3 py-1.5 rounded-full text-center bg-violet-700'>Aviation</p>
-                    <p className='text-sm px-3 py-1.5 rounded-full text-center bg-violet-700'>Smart Building</p>
+                    <p style={{ backgroundColor: 'rgba(255, 255, 255, 0.11)',  }} className='text-sm px-3 py-1.5 rounded-full text-center'>Connected manufacturing</p>
+                    <p style={{ backgroundColor: 'rgba(255, 255, 255, 0.11)',  }} className='text-sm px-3 py-1.5 rounded-full text-center'>Aviation</p>
+                    <p style={{ backgroundColor: 'rgba(255, 255, 255, 0.11)',  }} className='text-sm px-3 py-1.5 rounded-full text-center'>Smart Building</p>
                 </div>
 
                 <p className='pb-14 text-base'>Revolutionize your industry with our innovative IoT solutions. Our software development services offer connected manufacturing, pollution control, smart transportation, and intelligent farming, agriculture, and forestry. With our expertise, you can harness the power of technology to increase efficiency, reduce waste, and optimize operations for a sustainable future.</p>

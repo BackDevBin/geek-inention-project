@@ -2,7 +2,7 @@ import React from 'react';
 
 const Embrace = () => {
     return (
-        <div className='w-full h-screen grid place-items-center'>
+        <div style={{ backgroundColor: '#16181c',  }} className='w-full h-screen grid place-items-center '>
 
             <div className='text-center '>
                 <p className='md:text-6xl text-5xl font-semibold pb-8'>EMBRACE THE FUTURE</p>

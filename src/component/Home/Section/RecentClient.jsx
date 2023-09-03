@@ -9,7 +9,7 @@ import insurityLogo from '../../../assets/logo/logo-insurity.webp';
 
 const RecentClient = () => {
     return (
-        <div className='bg-black md:px-20 px-5'>
+        <div style={{ backgroundColor: 'rgb(25, 24, 30)',  }} className=' md:px-20 px-5'>
 
             <div className='mx-auto md:pt-32 md:pb-40 pb-7 max-w-3xl text-center'>
                 <h3 className='md:text-6xl text-3xl font-semibold  pb-5'>Recent clients</h3>

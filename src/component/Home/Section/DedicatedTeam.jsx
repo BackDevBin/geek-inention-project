@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const DedicatedTeam = () => {
     return (
-        <div className='md:pt-32 pt-8'>
+        <div style={{ backgroundColor: 'rgb(22, 24, 28)',  }} className='md:pt-32 pt-8'>
 
             <div className='max-w-3xl mx-auto text-center pb-32 px-5'>
                 <p className='md:text-6xl text-4xl font-semibold pb-8'>Only dedicated teams</p>

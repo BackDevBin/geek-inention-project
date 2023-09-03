@@ -23,6 +23,7 @@ const Home = () => {
             <SoftwerPlatform></SoftwerPlatform>
             <DedicatedTeam></DedicatedTeam>
             <Footer></Footer>
+            
         </div>
     );
 };

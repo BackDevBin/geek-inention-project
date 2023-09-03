@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='pb-5'>
+        <div style={{ backgroundColor: '#16181c',  }} className='pb-5'>
             <div className='text-center pt-8 pb-24 max-w-3xl mx-auto'>
                 <h3 className='md:text-5xl text-4xl font-semibold px-2.5 pb-8'>Get to know us better!</h3>
                 <p className='opacity-80 text-xl px-2 pb-12'>It is a pleasure to have you on our website. Let us know if there's an opportunity to do something together.</p>
