@@ -9,15 +9,15 @@ import insurityLogo from '../../../assets/logo/logo-insurity.webp';
 
 const RecentClient = () => {
     return (
-        <div className='bg-black px-20'>
+        <div className='bg-black md:px-20 px-5'>
 
-            <div className='mx-auto pt-32 pb-40 max-w-3xl text-center'>
-                <h3 className='text-6xl font-semibold pb-5'>Recent clients</h3>
+            <div className='mx-auto md:pt-32 md:pb-40 pb-7 max-w-3xl text-center'>
+                <h3 className='md:text-6xl text-3xl font-semibold  pb-5'>Recent clients</h3>
                 <p className='text-xl opacity-80'>We worked with the Fortune 500 companies in the USA, Africa, UK, Middle East
 World's 4th Strongest Banking Brand, Automobile & IoT industry</p>
             </div>
 
-            <div className='grid grid-cols-3 gap-7'>
+            <div className='grid grid-cols-1 md:grid-cols-3 md:gap-7 gap-6'>
                 <LogoCard imageUrl ={imbLogo} title="Global Technology" 
                 shortDescription="From cloud computing to artificial intelligence, IBM's cutting-edge technologies and expertise have helped countless businesses stay ahead of the curve in today's digital world."
                 ></LogoCard>

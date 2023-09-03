@@ -8,11 +8,13 @@ import RecentClient from './Section/RecentClient';
 import SoftwerPlatform from './Section/SoftwerPlatform';
 import DedicatedTeam from './Section/DedicatedTeam';
 import Footer from '../Footer/Footer';
+import Embrace from './Section/Embrace';
 
 const Home = () => {
     return (
         <div className='text-white bg-black'>
             <Navber></Navber>
+            <Embrace></Embrace>
             <Fintech></Fintech>
             <Industrial></Industrial>
             <SmartEdu></SmartEdu>
